@@ -1,0 +1,14 @@
+
+.fix{
+    height: 140px;
+    width: 400px;
+    background-color: cornflowerblue ;
+}
+.puppy{
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    object-fit: cover;
+    object-position:left ;
+}

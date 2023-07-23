@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .fix{
+        height: 600px;
+        width: 600px;
+        box-shadow: 3px 3px 3px black ;
+      }
+      .para1{
+        width: 600px;
+      }
+      .para2{
+        width: 250px;
+        height: 170px;
+        padding: 15px 10px 15px 10px ;
+        background-color: dimgrey;
+        border-width: 9px;
+        border-style: solid;
+        border-color: deeppink;
+      }
+      .para3{
+        width: 250px;
+        height: 140px;
+        padding: 15px 10px 5px 10px ;
+        background-color: dimgrey;
+        border-width: 9px;
+        border-style: solid;
+        border-color: deeppink;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset class="fix" >
+      <h2>The Alternative CSS Box Model</h2>
+      <p class="para1">
+        In the alternate CSS box mox, a defined width or height attribute will determine not only the size of the contain area but the size of the border,padding,and content area of a box. If specified, the margin will still have to added to calculate the total size of the element.
+      </p>
+      <p class="para2">
+        Since I've set the box-sizing property to "border-box". the total width of the element will be 320px (the set width+margin-left and margin-right).Since the height of theb div has not been explicity defined. the height is distance between the top the topmost line box and the bottom of the bottomost is the linebox 
+      </p>
+      <p class="para3">
+        A div with almost the same CSS applied to it--except for the padding property.For this div, different padding is applied to each of its four sides rather than equal padding applied to all sides.
+      </p>
+    </fieldset>
+  </body>
+</html>

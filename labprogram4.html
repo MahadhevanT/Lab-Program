@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            body{
+                font-style: Times New Roman;
+            }
+            .reg{
+                background-color: yellow  ;
+                color: rgb(235, 10, 10);
+                border-color: red;
+                font-size: 23px;
+            }
+            .enter{
+                background-color: aqua ;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .box{
+                background-color: aqua;
+                padding-left: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 15px;
+                
+                
+            }
+            .button{
+                padding-left: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 15px;    
+                font-size: 15px;
+                
+            }
+            .bor{
+                padding-left: 3px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                padding-right: 3px;
+               
+            }
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                margin: 4px;
+            }
+            table{
+                margin: auto;
+                border-spacing: 5px;
+                width: 450px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="3px" class="bor">
+            <tr>
+               <th colspan="2" class="reg">Registration Form</th>
+            </tr>
+            <tr>
+                <td class="enter">Enter Name</td>
+                <td class="box"><input type="text" name= "UserName"></td>
+            </tr>
+            <tr>
+                <td class="enter">Enter Password</td>
+                <td class="box"><input type="text" password= "Pass"></td>
+            </tr>
+            <tr>
+                <td class="enter">Enter Address</td>
+                <td class="box">
+                    <textarea name="address" cols="20" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="enter">Select Game</td>
+                <td class="box">
+                <input type="checkbox" >Hockey<br>
+                <input type= "checkbox" >football<br>
+                <input type= "checkbox" >Badminton<br>
+                <input type= "checkbox" >Cricket<br>
+                <input type= "checkbox" >volleyball<br></td>
+            </tr>
+            <tr>
+                <td class="enter">Gender</td>
+                <td class="box">
+                    <input type="radio" name="gender" value="male" checked="checked">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td class="enter">Select ur age</td>
+                <td class="box">
+                    <select name="age">
+                        <option value="">Select</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="enter">Select Photo</td>
+                <td class="box">
+                    <input type="file">
+                </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="enter">
+                <div class="buttons">
+                    <input class="button" type="submit" value="Click Me">
+                    <input class="button" type="Reset">
+                    <input class="button" type="submit" value="Submit Form">
+                </div>
+            </td>
+          </tr>
+        </table>
+    </body>
+</html>

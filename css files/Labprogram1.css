@@ -1,0 +1,33 @@
+.your{
+ border: 1px solid black;
+ height: 70px;
+ width: 400px;
+ padding-left: 10px;
+    }
+ .name,
+ .email{
+        padding-left: 5px;
+        }
+ .yes{
+     margin-top: 0px;
+     }
+ .you{
+      margin-bottom: 0px;
+     }
+ .your2{
+        border: 1px solid black;
+        height: 300px;
+        width: 400px;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .fix{
+        background-color: #FAFAD2;
+        color: black;
+        font-family: 'Times New Roman',Arial;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        font-style: italic;
+        padding: 10px 20px 12px 22px;
+    }
