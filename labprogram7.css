@@ -1,0 +1,67 @@
+.row2-yellow{
+  background-color: #ffff80;
+  padding: 20px;
+}
+.yellow{
+  background-color: white;
+  margin: 10px;
+}
+.row3-red{
+  background-color: #F08080;
+  padding: 10px;
+}
+.red{
+  background-color: white;
+  margin: 10px;
+}
+.row1-green{
+  background-color:#98FB98 ;
+  margin-bottom: 10px;
+  padding: 20px;
+  height: 70px;
+}
+body{
+  margin: 80px;
+}
+.orange{
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 20px ;
+  background-color: #FF7F50;
+
+}
+.blue{
+  height: 100px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #AFEEEE;
+}
+.row4-ora{
+  display: grid;
+  grid-template: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.green-text{
+  background-color: green;
+  width: 60px;
+}
+.yellow-text{
+  background-color: yellow;
+  width: 60px;
+}
+.orange-text{
+  background-color: orange;
+  margin-bottom: 25px;
+  width: 70px;
+}
+.blue-text{
+  background-color: blue;
+  margin-bottom: 25px;
+  width: 60px;
+ 
+}
+.red-text{
+  background-color: red;
+  width: 40px;
+}
